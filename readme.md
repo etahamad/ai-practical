@@ -1,3 +1,4 @@
+# breadth-first-search
 We want to visit all of the places connected by these roads, but we want to do it in a smart way so that we don't waste time going back and forth on the same road. This is called a "breadth-first search".
 
 The code shows how we can use Python to do this. First, we create an empty list called visited to keep track of the places we've been to. We also create an empty list called queue.
@@ -14,7 +15,7 @@ We keep doing this until there are no more places left in our queue.
 
 Finally, we call the bfs() function with our starting node and print out all the places we've visited in order using the breadth-first search method.
 
-
+# backtracking
 This code is like a game, where you have some letters like "a", "b", and "c". You have to find all the ways you can arrange them.
 
 For example, if you have one letter, there is only one way you can arrange it: by itself. If you have two letters, there are two ways you can arrange them: "ab" or "ba".
